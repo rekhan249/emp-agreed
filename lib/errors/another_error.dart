@@ -21,3 +21,7 @@ class FormatException implements Exception {
   final String message;
   FormatException(this.message);
 }
+class InfinityException implements Exception {
+  final String message;
+  InfinityException(this.message);
+}
